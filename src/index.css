@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -17,9 +20,39 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  @apply text-3xl font-bold;
   line-height: 1.1;
 }
 
-
-
+h2{
+  @apply text-2xl font-semibold
+}
+button{
+  @apply py-2 px-6 rounded-sm bg-black text-white font-semibold
+}
+/* Authentication */
+.auth-cont::before{
+  content: '';
+  position:absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(21, 22, 24, 0.24) 0%, #151618 100%);
+  z-index: -1;
+}
+.auth-cont input{
+  @apply p-2 bg-lightgray w-full rounded-sm
+}
+.nav-content{
+  @apply transition-colors
+}
+.nav-content p{
+  transition: color 0.2s ease;
+}
+.nav-content:hover p{
+  @apply text-[#635bff]
+}
+.nav-content svg{
+  @apply size-5 transition-all
+}
+.nav-content:hover svg{
+  @apply fill-[#635bff]
+}
