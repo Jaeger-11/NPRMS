@@ -50,9 +50,12 @@ button{
 .nav-content:hover p{
   @apply text-[#635bff]
 }
-.nav-content svg{
-  @apply size-5 transition-all
+.sidebar svg{
+  @apply size-4 transition-all
 }
-.nav-content:hover svg{
+.nav-content:hover svg, .nav-content:hover svg path{
   @apply fill-[#635bff]
+}
+.svgactive svg, .svgactive svg path{
+  @apply fill-white
 }
