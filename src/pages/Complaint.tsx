@@ -1,7 +1,7 @@
 
 const Complaint = () => {
   return (
-    <div>Complaints</div>
+    <main>Complaints</main>
   )
 }
 

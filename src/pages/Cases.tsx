@@ -1,7 +1,7 @@
 
 const Cases = () => {
   return (
-    <div>Cases</div>
+    <main>Cases</main>
   )
 }
 

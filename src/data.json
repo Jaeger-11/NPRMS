@@ -1,0 +1,144 @@
+[{
+    "_id": "6698ddb65f3ac14617cb6814",
+    "NIN": "98765432101",
+    "forceNo": "123456",
+    "firstName": "Amina",
+    "lastName": "Bello",
+    "gender": "Female",
+    "currentRank": "Chief Superintendent",
+    "PPA": {
+        "station": "Garki Police Station"
+    },
+    "contact": {
+        "email": "amina.bello@example.com",
+        "phoneNumber": "08023456789"
+    }
+},
+{
+    "_id": "6698ddb65f3ac14617cb6817",
+    "NIN": "11223344556",
+    "forceNo": "789012",
+    "firstName": "Funke",
+    "lastName": "Adeniyi",
+    "gender": "Female",
+    "currentRank": "Assistant Superintendent",
+    "PPA": {
+        "station": "Surulere Police Station"
+    },
+    "contact": {
+        "email": "funke.adeniyi@example.com",
+        "phoneNumber": "08034567890"
+    }
+},
+{
+    "_id": "6698ddb65f3ac14617cb681a",
+    "NIN": "22334455667",
+    "forceNo": "345678",
+    "firstName": "Musa",
+    "lastName": "Ibrahim",
+    "gender": "Male",
+    "currentRank": "Deputy Superintendent",
+    "PPA": {
+        "station": "Tudun Wada Police Station"
+    },
+    "contact": {
+        "email": "musa.ibrahim@example.com",
+        "phoneNumber": "08045678901"
+    }
+},
+{
+    "_id": "6698ddb65f3ac14617cb681d",
+    "NIN": "33445566778",
+    "forceNo": "567890",
+    "firstName": "Ngozi",
+    "lastName": "Nwankwo",
+    "gender": "Female",
+    "currentRank": "Inspector",
+    "PPA": {
+        "station": "Umuahia Police Station"
+    },
+    "contact": {
+        "email": "ngozi.nwankwo@example.com",
+        "phoneNumber": "08056789012"
+    }
+},
+{
+    "_id": "6698ddb65f3ac14617cb6823",
+    "NIN": "55667788990",
+    "forceNo": "234567",
+    "firstName": "Hauwa",
+    "lastName": "Usman",
+    "gender": "Female",
+    "currentRank": "Assistant Commissioner",
+    "PPA": {
+        "station": "Gwale Police Station"
+    },
+    "contact": {
+        "email": "hauwa.usman@example.com",
+        "phoneNumber": "08078901234"
+    }
+},
+{
+    "_id": "6698ddb65f3ac14617cb6811",
+    "NIN": "12345678901",
+    "forceNo": "654321",
+    "firstName": "Chinedu",
+    "lastName": "Okafor",
+    "gender": "Male",
+    "currentRank": "Superintendent",
+    "PPA": {
+        "station": "Ikeja Police Station"
+    },
+    "contact": {
+        "email": "chinedu.okafor@example.com",
+        "phoneNumber": "08012345678"
+    }
+},
+{
+    "_id": "6698ddb65f3ac14617cb682c",
+    "NIN": "88990011223",
+    "forceNo": "567890",
+    "firstName": "Uche",
+    "lastName": "Obi",
+    "gender": "Male",
+    "currentRank": "Chief Superintendent",
+    "PPA": {
+        "station": "Nsukka Police Station"
+    },
+    "contact": {
+        "email": "uche.obi@example.com",
+        "phoneNumber": "08101234567"
+    }
+},
+{
+    "_id": "6698ddb65f3ac14617cb6829",
+    "NIN": "77889900112",
+    "forceNo": "456789",
+    "firstName": "Fatima",
+    "lastName": "Ahmed",
+    "gender": "Female",
+    "currentRank": "Superintendent",
+    "PPA": {
+        "station": "Bosso Police Station"
+    },
+    "contact": {
+        "email": "fatima.ahmed@example.com",
+        "phoneNumber": "08090123456"
+    }
+},
+{
+    "_id": "6698ddb65f3ac14617cb6826",
+    "NIN": "66778899001",
+    "forceNo": "345678",
+    "firstName": "Emeka",
+    "lastName": "Iheanacho",
+    "gender": "Male",
+    "currentRank": "Deputy Commissioner",
+    "PPA": {
+        "station": "Owerri Police Station"
+    },
+    "contact": {
+        "email": "emeka.iheanacho@example.com",
+        "phoneNumber": "08089012345"
+    }
+}]

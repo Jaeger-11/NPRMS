@@ -1,7 +1,7 @@
 
 const Wanted = () => {
   return (
-    <div>Wanted</div>
+    <main>Wanted</main>
   )
 }
 

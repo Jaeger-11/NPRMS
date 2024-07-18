@@ -1,7 +1,7 @@
 
 const Missing = () => {
   return (
-    <div>Missing</div>
+    <main>Missing</main>
   )
 }
 

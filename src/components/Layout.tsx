@@ -4,14 +4,14 @@ import Header from "./Header";
 
 const Layout = () => {
   return (
-    <div className="grid grid-cols-5">
-      <aside className="col-span-1">
+    <div className="flex h-svh overflow-hidden">
+      <aside className="min-w-52">
         <Sidebar/>
       </aside>
-      <main className="col-span-4">
+      <div className="flex-1 flex h-svh flex-col">
         <Header/>
-        <Outlet/>
-      </main>
+        <div className="flex-1"><Outlet/></div>
+      </div>
     </div>
   )
 }

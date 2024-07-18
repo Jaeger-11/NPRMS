@@ -1,7 +1,7 @@
 
 const Incidents = () => {
   return (
-    <div>Incidents</div>
+    <main>Incidents</main>
   )
 }
 
