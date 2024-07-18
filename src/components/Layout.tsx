@@ -5,7 +5,7 @@ import Header from "./Header";
 const Layout = () => {
   return (
     <div className="flex h-svh overflow-hidden">
-      <aside className="min-w-52">
+      <aside className="">
         <Sidebar/>
       </aside>
       <div className="flex-1 flex h-svh flex-col">

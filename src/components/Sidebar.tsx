@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
-import { CaseIcon, ComplaintIcon, DashboardIcon, IncidentIcon, MissingIcon, OfficerIcon, ReportIcon, WantedIcon } from "./NavIcons";
+import { CaseIcon, ComplaintIcon, DashboardIcon, IncidentIcon, MissingIcon, OfficerIcon, ReportIcon, WantedIcon, MinimizeIcon, MaximizeIcon } from "./NavIcons";
 import { navItem } from "../types/interfaces";
+import { useState } from "react";
 const navcontents = [
   {
     name: "dashboard",
@@ -48,10 +49,18 @@ const navcontents2 = [
 
 const Sidebar = () => {
   const pathname = useLocation().pathname;
-  console.log(pathname);
+  const [minimize, setMinimize] = useState<Boolean>(false);
+
+  const toggleSidebar = () => {
+    setMinimize((minimize) => !minimize);
+  }
+
   return (
-    <aside className="py-4 h-svh min-w-48 text-lg bg-dark text-white sidebar">
-      <div className="m-4 mt-0 space-y-2">
+    <aside className={`py-4 h-svh text-lg bg-dark text-white sidebar ${minimize ? 'minimize' : 'min-w-48'} `}>
+      <div className="m-4 mt-0 space-y-2 nprms-cont">
+        <div className="flex justify-end m-icons">
+          <div onClick={toggleSidebar}>{minimize ? <MaximizeIcon/> : <MinimizeIcon/>}</div>
+        </div>
         <h2 className="">NPRMS</h2>
         <section className="border-lightblue border rounded-md p-2 flex justify-between">
           <h4>Akinwale John</h4>

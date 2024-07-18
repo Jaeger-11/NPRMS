@@ -3,7 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-radius: 5px;
+}
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-weight: 400;
@@ -43,6 +53,24 @@ button{
 }
 .auth-cont input{
   @apply p-2 bg-lightgray w-full rounded-sm
+}
+.minimize{
+  width: max-content;
+}
+.minimize p, .minimize .nprms-cont section, .minimize .nprms-cont h2 {
+  display: none;
+}
+.minimize .m-icons{
+  @apply justify-center
+}
+.minimize section{
+  @apply gap-3
+}
+.minimize svg{
+ @apply !size-5;
+}
+.m-icons svg:hover path{
+  @apply stroke-[#635bff] transition-all;
 }
 .nav-content{
   @apply transition-colors
