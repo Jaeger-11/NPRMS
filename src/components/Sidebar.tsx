@@ -56,7 +56,7 @@ const Sidebar = () => {
   }
 
   return (
-    <aside className={`py-4 h-svh text-lg bg-dark text-white sidebar ${minimize ? 'minimize' : 'min-w-48'} `}>
+    <aside className={`py-4 h-svh text-lg bg-dark text-white sidebar transition-all ${minimize ? 'minimize' : 'min-w-48'} `}>
       <div className="m-4 mt-0 space-y-2 nprms-cont">
         <div className="flex justify-end m-icons">
           <div onClick={toggleSidebar}>{minimize ? <MaximizeIcon/> : <MinimizeIcon/>}</div>
